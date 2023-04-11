@@ -5,7 +5,7 @@ name = "Meshy"
 description.en = "Tool for performing measurements, calculations, simple transformations, and other post-processing on digital meshes"
 description.fr = "Tool for performing measurements, calculations, simple transformations, and other post-processing on digital meshes"
 
-version = "0.1~ynh1"
+version = "0.1~ynh2"
 
 maintainers = ["czen"]
 
