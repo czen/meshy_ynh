@@ -5,7 +5,7 @@ name = "Meshy"
 description.en = "Tool for performing measurements, calculations, simple transformations, and other post-processing on digital meshes"
 description.fr = "Tool for performing measurements, calculations, simple transformations, and other post-processing on digital meshes"
 
-version = "0.1~ynh2"
+version = "0.1~ynh3"
 
 maintainers = ["czen"]
 
@@ -58,10 +58,6 @@ ram.runtime = "50M"
     type = "string"
     choices = ["fr", "en"]
     default = "en"
-
-    [install.admin]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
-    type = "user"
 
  [resources]
     # See the packaging documentation for the full set
