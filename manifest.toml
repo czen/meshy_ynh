@@ -73,8 +73,8 @@ ram.runtime = "50M"
         # This will pre-fetch the asset which can then be deployed during the install/upgrade scripts with :
         #    ynh_setup_source --dest_dir="$install_dir"
         # You can also define other assets than "main" and add --source_id="foobar" in the previous command
-        url = "https://github.com/czen/meshy/releases/download/v0.1/meshy_gh_pages.zip"
-        sha256 = "8f9c928624b627c36fb625d140b83986da126bea7cab51f94d728755fcd6f6f7"
+        url = "https://github.com/czen/meshy/releases/download/v0.1/meshy_gh_pages.tar.gz"
+        sha256 = "4e483c2e4e151ecf2f004a1f3d312c219815f90c2175184145f09156e25e8a23"
 
         # These infos are used by https://github.com/YunoHost/apps/blob/master/tools/autoupdate_app_sources/autoupdate_app_sources.py
         # to auto-update the previous asset urls and sha256sum + manifest version
